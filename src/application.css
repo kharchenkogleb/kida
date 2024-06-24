@@ -1,0 +1,27 @@
+
+/* Init Hintergrundfarbe der Slider */
+#progressSlider .track { -fx-background-color: rgb(217, 217, 217); }
+
+/* Tabellen-Header */
+.table-view .column-header { -fx-background-color: transparent; }
+.table-view .column-header-background{
+    -fx-background-color: rgb(19, 19, 19);
+    -fx-background-radius: 8;
+	-fx-padding: 2;
+}
+
+/* Tabelle Reihen-Padding */
+.table-view .table-cell{
+    -fx-padding: 2 0 2 10px;
+    -fx-border-width: 4 0 2 0;
+}
+
+/* Context-Menu (ChoiceBox, Tabelle Rechtsklick) */
+.context-menu { -fx-background-color: rgb(19, 19, 19); }
+.choice-box > .label { -fx-text-fill: white; }
+.menu-item:focused { -fx-background-color: rgb(255, 138, 0); }
+.menu-item > .label { -fx-text-fill: white; }
+
+/* Unsichtbare Scrollbar */
+.scroll-bar { -fx-background-color: transparent; }
+.table-view .column-header-background .filler { -fx-background-color: transparent; }
